@@ -24,8 +24,4 @@ class Queue:
         return value
 
     def __str__(self):
-        string = "Stack 1: \n"
-        string = string + str(self.stack1)
-        string = string + "Stack 2:"
-        string = string + str(self.stack2)
-        return string
+        return ("Queue Contents: \n" + str(self.stack1))
